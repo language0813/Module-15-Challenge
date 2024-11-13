@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style the legend box, title, and colored squares. */
+.legend {
+  background: white;
+  padding: 8px;
+  font: 12px Arial, sans-serif;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend h4 {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.legend i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  opacity: 0.8;
+}
